@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 2px black dashed;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #ffffff;
+      font-size: 18px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+
+nav a:hover {
+      color: red;
+    }
+      
+nav a{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  background: lightpink;
+}
+
+
+    h1{
+      text-align: center;
+      padding: 10px;
+      background-color: #000000;
+      color: #ffffff;
+      align-items: center;
+      font-family: Impact, sans-serif
+      font-size: 110px;
+    }
+
+    header {
+      padding: 10px;
+      background-color: #ffffff;
+      font-size: 25px;
+      font-family: Impact, sans-serif;
+    }
+
+
+
+   body {
+      font-family: Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightblue;
+    }
+
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+  
+
+    header form {
+      display: inline-block;
+    }
+
+
+
+    main {
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      margin-top: 0;
+      font-size: 36px;
+    }
+
+    footer {
+      background-color: ##ffffff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    p {
+      background-color: ##ffffff;
+      color: #000000;
+      padding: 20px;
+      font-family: Helvetica, sans-serif
+    }
+
+    h2 {
+      background-color: ##ffffff;
+      color: #000000;
+      padding: 10px;
+      border: 2px solid lightblue
+    }
